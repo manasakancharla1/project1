@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My Nursery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url('https://redemptionpermaculture.com/wp-content/uploads/2022/01/Sustainable.jpg'); /* Replace with your actual image URL */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        header {
+            background-image: url('header_bg.jpg'); /* Replace with your actual image URL */
+            background-size: cover;
+            color: green;
+            text-align: center;
+            padding: 5em 0;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color:rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            backdrop-filter: blur(10px); /* Background blur effect */
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 300px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
+        /* Styles for the feedback form */
+        .feedback-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .rating-input {
+            display: none;
+        }
+
+        .rating-label {
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .rating-star {
+            color: #FFD700;
+            font-size: 24px;
+        }
+        input[type=button]{
+          background-color: #4CAF50;
+          width:200px;
+          height:30px;
+          color: azure;
+          border: none;
+          border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="container">
+        <h2>Get in Touch</h2>
+        <p>Have questions or feedback? Use the form below to share your thoughts with us:</p>
+
+        <div class="feedback-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Rate Your Experience:</label><br>
+                    <input type="radio" id="star5" name="rating" value="5" class="rating-input">
+                    <label for="star5" class="rating-label"><span class="rating-star">★</span></label>
+                    <input type="radio" id="star4" name="rating" value="4" class="rating-input">
+                    <label for="star4" class="rating-label"><span class="rating-star">★</span></label>
+                    <input type="radio" id="star3" name="rating" value="3" class="rating-input">
+                    <label for="star3" class="rating-label"><span class="rating-star">★</span></label>
+                    <input type="radio" id="star2" name="rating" value="2" class="rating-input">
+                    <label for="star2" class="rating-label"><span class="rating-star">★</span></label>
+                    <input type="radio" id="star1" name="rating" value="1" class="rating-input">
+                    <label for="star1" class="rating-label"><span class="rating-star">★</span></label>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback">Your Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                </div>
+
+                <input type="button" value="Submit" onclick="submitForm()">
+                 <br>
+                 <br>
+                <div class="col">
+                    Follow us on:<br>
+                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                    <i class="fa fa-youtube" style="font-size:24px"></i>
+                    <i class="fa fa-facebook-official" style="font-size:24px"></i>
+                    <i class="fa fa-whatsapp" style="font-size:24px"></i>
+                <script>
+                  function submitForm() {
+                      // You can add additional form submission logic here if needed
+          
+                      // Display the form submitted message
+                      alert('Form submitted!');
+                  }
+              </script>
+            </form>
+        </div>
+    </section>
+
+    <!-- You can add a footer or other sections as needed -->
+
+</body>
+</html>

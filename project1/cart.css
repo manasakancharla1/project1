@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('your_background_image.jpg'); /* Change the path to your background image */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333; /* Set text color to a readable color on the background */
+}
+
+h2 {
+  text-align: center;
+  color: #fff; /* Text color for headings */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4caf50; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+td {
+  background-color: #fff; /* Cell background color */
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #4caf50; /* Link color */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #45a049; /* Hover color for the link */
+}
