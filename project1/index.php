@@ -126,14 +126,14 @@ nav button {
 
 <header>
       <div class="logo">
-        <a href="index.html">
+        <a href="index.php">
         <img src="https://images-platform.99static.com//WFYsEJL1mMxoIlwt_V16cZEKFSg=/432x389:1111x1068/fit-in/500x500/projects-files/33/3343/334325/40e72721-fabd-47b2-9e0d-e20041037d25.jpg"  alt="Logo"></a>
     </div>
     <div class="text">
         <h1>PLANT POTTAGE</h1>
     </header>
     <nav> 
-        <a href="index.html"> <i class="fa fa-home" style="font-size:24px"></i> &ensp;Home</a>
+        <a href="index.php"> <i class="fa fa-home" style="font-size:24px"></i> &ensp;Home</a>
         <a href="about_us.html"><i class="fa fa-book" style="font-size:24px"></i>About Us</a>
         <a href="contact_us.html"><i class="fa fa-phone" style="font-size:24px"></i>&ensp;Contact</a>
         <a href="msqli.php"><i class="fa fa-user" style="font-size:24px"></i> &ensp;Sign In
